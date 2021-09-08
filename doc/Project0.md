@@ -13,7 +13,8 @@ The screenshot should look like:
 
 ## Your Device
 
-This year we will not distribute any  Raspberry pi devices but due to some device malfunctioning last year we will emulate the whole environnement instead
+This year we will not distribute any  Raspberry pi devices but due to some device malfunctioning last year. 
+We will emulate the whole environnement instead.
 In this project we will guide you step by step on how to do that.
 
 ## Development Environment
@@ -37,7 +38,7 @@ Then install the following packages: ccache, gcc-aarch64-linux-gnu, unrpm, pv
 sudo apt-get install ccache gcc-aarch64-linux-gnu obs-build pv -y
 ```
 
-## Compiling the Kernel & Flashing the Device
+## Compiling the Kernel & Running the emulator 
 
 Now it's time to actually build the kernel image and run the emulator.
 
