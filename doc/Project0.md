@@ -73,8 +73,6 @@ Then, make boot images with the following shell script (you need sudo this time)
 ```bash
 sudo ./scripts/mkbootimg_rpi3.sh
 ```
-** You may turn off the automatic opening of mounted folders with `dconf-editor`.
-
 Ensure that two new image files (`modules.img`, `boot.img`) are created.
 
 ## Run QEMU
