@@ -9,6 +9,7 @@ This assignment will help you setup your kernel development environment. This pr
 This is an individual project. You have to take a screenshot of terminal when you are able to run your emulator. Send the screenshot to the TA via email ([os-tas@dcslab.snu.ac.kr](mailto:os-tas%40dcslab.snu.ac.kr)) before the deadline.
 The screenshot should look like:
 
+![qemu start](/doc/output_qemu.PNG)
 
 ## Your Device
 
