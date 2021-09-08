@@ -95,7 +95,7 @@ https://github.com/ijsilver/osfall2021/tree/main/src
 * After building the kernel and using the existing scripts to create the kernel images boot.img, modules.img files, move to the tizen-image directory
 * Create the remaining img files by decompressing the tizen-unified_20181024.1_iot-headless-2parts-armv7l-rpi3.tar.gz of the kernel directory into the tizen-image directory.
 (ex) tar xvzf tizen-unified_20181024.1_iot-headless-2parts-armv7l-rpi3.tar.gz -C /home/dcslab/tizen-image
-* By executing the script qemu.sh you can access to the tizen shell 
+* By executing the script qemu.sh you can access to the tizen shell (ID:root  PW:tizen)
 * Take a screenshot of the flashing process and submit it to TAs.
 
 * (참고) tizen-image 디렉터리를 만들지 않고 qemu.sh 스크립트의 img 파일 경로 (ex. file=../tizen-image/rootfs.img)를 해당 img 파일이 있는 경로로 직접 바꿔주셔도 됩니다.
