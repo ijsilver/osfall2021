@@ -73,6 +73,8 @@ Then, make boot images with the following shell script (you need sudo this time)
 ```bash
 sudo ./scripts/mkbootimg_rpi3.sh
 ```
+** You may turn off the automatic opening of mounted folders with `dconf-editor`.
+
 Ensure that two new image files (`modules.img`, `boot.img`) are created.
 
 ## Run QEMU
@@ -86,7 +88,7 @@ or
 sudo apt-get install qemu-system-aarch64
 ```
 * download the script and config file from this link
-https://github.com/ijsilver/osfall2021/tree/main/src/qemu
+https://github.com/ijsilver/osfall2021/tree/main/src
 * Move qemu.sh to the Tizen kernel directory (ex. /home/dcslab/osfall2020-team1/)
 * Create a directory called tizen-image where the Tizen kernel directory is located (ex. /home/dcslab/)
 * Replace the existing arch/arm64/configs/tizen_bcmrpi3_defconfig file with downloaded file (back up the existing file)
@@ -95,7 +97,9 @@ https://github.com/ijsilver/osfall2021/tree/main/src/qemu
 (ex) tar xvzf tizen-unified_20181024.1_iot-headless-2parts-armv7l-rpi3.tar.gz -C /home/dcslab/tizen-image
 * By executing the script qemu.sh you can access to the tizen shell 
 
-
+* (참고) tizen-image 디렉터리를 만들지 않고 qemu.sh 스크립트의 img 파일 경로 (ex. file=../tizen-image/rootfs.img)를 해당 img 파일이 있는 경로로 직접 바꿔주셔도 됩니다.
+* (2) Troubleshooting
+추가로, 위 과정대로 진행해도 쉘로 진입하지 못하고 터미널에 아무것도 보이지 않을 수 있습니다. qemu의 스탠다드 콘솔출력 문제를 참고하여 진행하시길 바랍니다.
 
 ## We're Here to Help You
 
