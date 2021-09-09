@@ -2,6 +2,7 @@
 * Assigned: 2021-09-9
 * Due: 2021-09-18
 * Help document: https://github.com/ijsilver/osfall2021/tree/main/presentations
+* **If you need to contact us, please send an email to os-tas@dcslab.snu.ac.kr.**
 
 ## Introduction
 This assignment will help you setup your kernel development environment. This project includes building kernel image from source code and Installing Qemu. After this project, you have setup all the necessary tools for the upcoming projects.
