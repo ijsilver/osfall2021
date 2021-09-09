@@ -6,14 +6,14 @@
 ## Introduction
 This assignment will help you setup your kernel development environment. This project includes building kernel image from source code and Installing Qemu. After this project, you have setup all the necessary tools for the upcoming projects.
 
-This is an individual project. You have to take a screenshot of terminal when you are able to run your emulator. Send the screenshot to the TA via email ([os-tas@dcslab.snu.ac.kr](mailto:os-tas%40dcslab.snu.ac.kr)) before the deadline.
-The screenshot should look like:
+This is an individual project. You have to take a screenshots of terminal of the appropriate steps it took to run your emulator. Send the screenshots via etl before the deadline.
+The final screenshot should look like:
 
 ![qemu start](/doc/output_qemu.PNG)
 
 ## Your Device
 
-This year we will not distribute any  Raspberry pi devices but due to some device malfunctioning last year. 
+This year we will not distribute any  Raspberry pi devices due to some device malfunctioning last year. 
 We will emulate the whole environnement instead.
 In this project we will guide you step by step on how to do that.
 
@@ -98,7 +98,7 @@ https://github.com/ijsilver/osfall2021/tree/main/src
 * Create the remaining img files by decompressing the `tizen-unified_20181024.1_iot-headless-2parts-armv7l-rpi3.tar.gz` of the kernel directory into the `tizen-image` directory.
 ```(ex) tar xvzf tizen-unified_20181024.1_iot-headless-2parts-armv7l-rpi3.tar.gz -C /home/dcslab/tizen-image```
 * By executing the script `qemu.sh` you can access to the tizen shell `(ID:root  PW:tizen)`
-* Take a screenshot of yu accessing the kernel and submit it to TAs.
+* Take a screenshots of your process and submit it to etl.
 
 * (참고) tizen-image 디렉터리를 만들지 않고 qemu.sh 스크립트의 img 파일 경로 (ex. file=../tizen-image/rootfs.img)를 해당 img 파일이 있는 경로로 직접 바꿔주셔도 됩니다.
 * (2) Troubleshooting
