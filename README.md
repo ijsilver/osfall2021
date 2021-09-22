@@ -8,6 +8,7 @@
 ## Projects
 
 * [Project 0](/doc/Project0.md)
+* [Project 1](/doc/Project1.md)
 
 ## Office
 **Professor** :
