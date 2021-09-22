@@ -1,7 +1,7 @@
 # Project 1
 
-* Assigned: 2020-09-23
-* **Due: 2020-10-08 Thurs 23:59:59 KST**
+* Assigned: 2021-09-23
+* **Due: 2021-10-08 Thurs 23:59:59 KST**
 * Help document: [doc](https://github.com/ijsilver/osfall2021/blob/main/presentations/2021%20OS%20FALL%20Project1%20Help%20Document%20.pdf)
 
 ## Introduction
