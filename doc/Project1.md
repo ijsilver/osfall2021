@@ -10,7 +10,7 @@ This assignment includes implementing a new system call in Linux. It returns the
 
 This is a team project. Each team will have access to its own GitHub repository (e.g. `[githubID of one member]/osfall2021-team1`) for collaboration and submission. Your final code and `README.md` document have to be committed into the _proj1_ branch for submission. Start from [kernel source](https://github.com/ijsilver/tizen-5.0-rpi3/) and make incremental changes to get things done.
 
-## 1. Writing `ptree` System Call (45 pts.)
+## 1. Writing `ptree` System Call 
 
 The system call you write should take two arguments and return the process tree information in a depth-first-search order.
 
@@ -59,7 +59,7 @@ read_lock(&tasklist_lock);
 /* do the job... */
 read_unlock(&tasklist_lock);
 ```
-## 2. Test your new system call (10 pts.)
+## 2. Test your new system call 
 
 Write a simple C program which calls `ptree` system call. Your program should print the entire process tree in pre-order using tabs to indent children with respect to their parents. For each process, it should use the following format for program output:
 ```c
