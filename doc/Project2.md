@@ -5,11 +5,11 @@
 * Help Document: [doc](link)
 
 This is the hardest project yet to come, some people might not finish on time so please start early :)
+Please use the [Help Document for Project 2](https://github.com/ijsilver/osfall2021/blob/main/presentations/2021%20OS%20FALL%20Project2%20Help%20Document.pdf) as reference 
 
 ## Introduction
 
-In this project, we will build our own CPU scheduler in the Tizen Linux kernel. Then, we test the scheduler with our emulator QEMU.
-Please use the help document 
+In this project, we will build our own CPU scheduler in the Tizen Linux kernel. Then, we test the scheduler with our emulator QEMU. 
 
 This is a team project.
 Each team will have access to its own GitHub repository for collaboration and submission.
