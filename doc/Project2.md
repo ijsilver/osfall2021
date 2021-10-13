@@ -2,10 +2,9 @@
 
 * Assigned: 2020-10-14 Thursday 
 * **Due: 2020-11-06  Saturday 23:59:59 KST**
-* Help Document: [doc](link)
 
 This is the hardest project yet to come, some people might not finish on time so please start early :)
-Please use the [Help Document for Project 2](https://github.com/ijsilver/osfall2021/blob/main/presentations/2021%20OS%20FALL%20Project2%20Help%20Document.pdf) as reference 
+* Please use the [Help Document for Project 2](https://github.com/ijsilver/osfall2021/blob/main/presentations/2021%20OS%20FALL%20Project2%20Help%20Document.pdf) as reference 
 
 ## Introduction
 
