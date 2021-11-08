@@ -184,6 +184,6 @@ If you want to make this change permanent, simply edit `/etc/fstab` and remove t
 
 ## We're Here to Help You
 
-Any troubles? Questions on [issue board](https://github.com/ijsilver/osfall2020/issues) are more than welcome. Discussions between students are also encouraged.
+Any troubles? Questions on [issue board](https://github.com/ijsilver/osfall2021/issues) are more than welcome. Discussions between students are also encouraged.
 
 Start early, be collaborative, and still most importantly, have fun!
