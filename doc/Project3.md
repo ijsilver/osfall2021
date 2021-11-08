@@ -21,7 +21,7 @@ Start from the original [kernel source](https://github.com/ij_silver/tizen-5.0-r
 
 On the Tizen platform, device orientation can be accessed via an on-board [orientation sensor](https://developer.tizen.org/development/guides/native-application/location-and-sensors/device-sensors#orientation) device.
 
-Using the sensor, a Tizen device detects its orientation in three dimensions.
+Using a certain sensor, a Tizen device detects its orientation in three dimensions.
 However, to simplify the project we will use a fake one-dimensional orientation (_device rotation_).
 Moreover, we provide a daemon that updates this fake device rotation information, called [rotd](https://github.com/Jim741305/osfall2020/blob/master/src/proj3/rotd.c), for you to save time. :)
 The daemon we provide updates the rotation value in the sequence of `0, 30, 60, ... 330, 0, ...` in a fixed frequency (e.g., 2 seconds).
