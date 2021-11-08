@@ -15,7 +15,7 @@ This is a team project.
 Each team will have access to its own GitHub repository for collaboration and submission.
 If you have not changed your team, you and your team will continue your work on the same repository you worked on for Project 1.
 Your final code and `README.md` document have to be committed into the _proj3_ branch for submission.
-Start from the original [kernel source](https://github.com/ij_silver/tizen-5.0-rpi3) (you may already have it in your team repository's _master_ branch) and make incremental changes to get things done.
+Start from the original [kernel source](https://github.com/ijsilver/tizen-5.0-rpi3) (you may already have it in your team repository's _master_ branch) and make incremental changes to get things done.
 
 ## 1. A user-space daemon to pass device rotation into the kernel
 
