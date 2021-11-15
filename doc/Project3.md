@@ -4,7 +4,7 @@
 * **Due: 2019-11-27 Saturday midnight
 
 
-* Please use the [Help Document for Project 3](https://github.com/ijsilver/osfall2021/blob/main/presentations/2021%20OS%20FALL%20Project3%20Help%20Document%20.pptx.pdf) as reference 
+* Please use the [Help Document for Project 3](https://github.com/ijsilver/osfall2021/blob/main/presentations/2021%20OS%20FALL%20Project3%20Help%20Document.pdf) as reference 
 
 ## Introduction
 
