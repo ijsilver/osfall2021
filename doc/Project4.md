@@ -1,6 +1,6 @@
 # Project 4: Geo-tagged File System
 
-* Assigned: 2020-11-30 Tuesday
+* Assigned: 2020-12-02 Thursday
 * **Due: 2020-12-15 Wednesday at midnight
 
 
