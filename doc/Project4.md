@@ -123,16 +123,12 @@ os@m:~/proj4$ sudo losetup -d /dev/loop0
 
 If `losetup` fails saying the device or resource is busy, try finding an empty loop device using `losetup -f`.
 
-The file `proj4.fs` should now contain the modified ext2 file system. You can now push it onto your device and mount it (the following assumes you use `sdb`):
+The file `proj4.fs` should now contain the modified ext2 file system. You can now push it onto your device and mount it(mv proj4.fs file to /root) :
 
 ```bash
-os@m:~/proj4$ sdb push proj4.fs /root/proj4.fs
-os@m:~/proj4$ sdb shell
-root@raspberry:/root$ mkdir /root/proj4
-root@raspberry:/root$ mount -o loop -t ext2 /root/proj4.fs /root/proj4
+run qemu
+root:~> mount -o loop -t ext2 /root/proj4.fs /root/proj4
 ```
-
-If you do not use `sdb`, simply repeat the steps you usually do to upload a file to your device and to connect to it.
 
 You can now create files and directories in `/root/proj4` which should be geo-tagged.
 
