@@ -1,7 +1,7 @@
 # Project 4: Geo-tagged File System
 
 * Assigned: 2020-12-02 Thursday
-* **Due: 2020-12-15 Wednesday at midnight
+* **Due: 2020-12-20 Sunday at midnight
 
 
 * Please use the [Help Document for Project 4](https://github.com/ijsilver/osfall2021/blob/main/presentations/2021%20OS%20FALL%20Project4%20Help%20Document.pdf) as reference 
